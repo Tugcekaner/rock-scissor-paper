@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAŞ KAĞIT MAKAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <h1><b>TAŞ KAĞIT MAKAS</b></h1>
+</header>
+
+<main>
+    <div class="containerGame">
+        <div class="game">
+            <h1>HAMLENİ YAP!</h1>
+        </div>
+    </div>
+    <div class="container">
+        <h1>PC SONUÇ:</h1>
+        <div class="row secimler">
+            <div class="choiceRock">
+                <img src="rock.png" alt="">
+            </div>
+            <div class="choiceScissor">
+                <img src="scissors.png" alt="">
+            </div>
+            <div class="choicePaper">
+                <img src="paper.png" alt="">
+            </div>
+    </div>
+        <p class="text"></p>
+    </div>
+    <div class="secim">
+        <div class="containerSecim">
+            <div class="row secimler">
+                    <div class="choiceR">
+                        <button onclick="tas()"><img src="rock.png" alt=""></button>
+                    </div>
+                    <div class="choiceS">
+                        <button onclick="makas()"><img src="scissors.png" alt=""></button>
+                    </div>
+                    <div class="choiceP">
+                        <button onclick="kagit()"><img src="paper.png" alt=""></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<section id="kurallar">
+    <div class="container">
+        <div class="row">
+            <ul class="kurallar">
+                <li class="baslik">KURALLAR:</li>
+                <li>MAKAS KAĞIDI KESER!</li>
+                <li>TAŞ MAKASI KIRAR!</li>
+                <li>KAĞIT MAKASI KAPLAR!</li>
+            </ul>    
+        </div>
+    </div>
+</section>
+
+
+
+<script src="app.js"></script>    
+</body>
+</html>
